@@ -2,7 +2,6 @@ import { useState } from 'react';
 import api from '../api/axios';
 import { showError, showSuccess } from '../utils/toast';
 import { validateMobile, validateOTP } from '../utils/validation';
-import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
   const [mobile, setMobile] = useState('');
