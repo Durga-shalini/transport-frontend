@@ -10,7 +10,6 @@ export default function Login() {
   const [step, setStep] = useState(1);
   const [role, setRole] = useState('BUYSELL');
   const [loading, setLoading] = useState(false);
-  const navigate=useNavigate();
 
   const roleConfig = {
     BUYSELL: { title: "Buy/Sell Login", color: "primary" },
